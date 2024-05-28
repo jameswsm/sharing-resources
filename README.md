@@ -2,7 +2,7 @@
 ![image](https://github.com/jameswsm/sharing-resources/assets/170709350/ad40a500-1383-4130-88e8-f5bbd20feaf2)
 </p>
 
-<h1>Network Security Groups (NSGs) and Sharing resources over the network</h1>
+<h1>Sharing resources over the network</h1>
 Tutorial for sharing resources over a network<br />
 
 <h2>Environments and Technologies Used</h2>
@@ -21,7 +21,7 @@ Tutorial for sharing resources over a network<br />
 - Active Directory running in Azure on a virtual machine (DC1)
 - Client machine running in Azure on a VM (Client1) and joined to the domain
 
-<h2>Steps: 1 - /////</h2>
+<h2>Steps: 1 - 8</h2>
 
 ![image](https://github.com/jameswsm/sharing-resources/assets/170709350/ccda024f-0d67-4522-ab7d-dc5651e503be)
 <p>
@@ -85,7 +85,7 @@ Step 8: On Client1(ex: bes.jom), navigate to the shared folder \\dc1
 Attempting to access the no-access folder should show an error message because bes.jom is NOT an admin.
 </p>
 <p>
-Attempting to create anything in the read-access folder should show a message of denied access. However you are allowed to open the file and read it.
+Attempting to create anything in the read-access folder should show a message of denied access. However you are allowed to open the file and read it(ex: hello).
 </p>
 <p>
 Attempting to create anything in the write-acesss folder(ex:new file!) should work properly
