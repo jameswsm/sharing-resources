@@ -5,9 +5,7 @@
 <h1>Sharing Resources Over the Network</h1>
 Tutorial for sharing resources over a network<br />
 <br />
-Part 1: Creating the virtual environment in Azure.<br />
-Part 2: Installation of software dependencies and osTicket.<br />
-
+Part 1:
 
 <h2>Environments and Technologies Used</h2>
 
@@ -23,11 +21,18 @@ Part 2: Installation of software dependencies and osTicket.<br />
 
 - Microsoft Azure Active Subscription (Creation of Reasearch Group, VMs, Virtual Networks, Subnets)
 - Active Directory running in Azure on a virtual machine (DC1)
-- Client machine runnin in Azure on a VM (Client1) and joined to the domain
+- Client machine running in Azure on a VM (Client1) and joined to the domain
 
 <h2>Steps: 1 - /////</h2>
 
+![image](https://github.com/jameswsm/sharing-resources/assets/170709350/ccda024f-0d67-4522-ab7d-dc5651e503be)
 <p>
-Step 1: 
+Step 1: Log into Domain Controller (ex: DC1) as domain admin account (ex: james_admin)
+</p>
+<br />
+
+
+<p>
+Step 2: 
 </p>
 <br />
